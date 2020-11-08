@@ -74,8 +74,8 @@ class ScanConfig {
     this.maskColorAlpha = 0.3,
     this.maskRatio = 0.68,
     this.returnStyle = 0,
-    this.titeColor = '#4bde2b',
-    this.title = '扫一扫',
-    this.hintString = '将二维码放入框内，即可自动扫描',
+    this.titeColor = '#6420d9',
+    this.title = '签到',
+    this.hintString = '扫一扫 桌面二维码参与现场互动',
   });
 }

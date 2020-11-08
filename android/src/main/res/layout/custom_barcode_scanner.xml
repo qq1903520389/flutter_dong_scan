@@ -20,10 +20,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="130dp"
         android:background="@color/zxing_transparent"
         android:text="@string/zxing_msg_default_status"
-        android:textColor="@color/zxing_status_text"
+        android:textColor="#6420d9"
         />
 
     <TextView

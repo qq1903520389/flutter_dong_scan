@@ -168,7 +168,8 @@
         _hintLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, self.bottomLeftImageView.bottom + 15.0, KmainWidth, NavigationBarHeight)];
         _hintLabel.textAlignment = NSTextAlignmentCenter;
         _hintLabel.font = [UIFont systemFontOfSize:12];
-        _hintLabel.textColor = [UIColor whiteColor];
+        _hintLabel.textColor = [UIColor hexStringToColor:@"#6420d9"];
+//        _hintLabel.textColor = [UIColor whiteColor];
         _hintLabel.text = _config.hintString;
         CGSize hintSize = [_hintLabel sizeThatFits:CGSizeMake(KmainWidth * _config.maskRatio, 0)];
         _hintLabel.frame = CGRectMake((KmainWidth - hintSize.width)/2.0, self.bottomLeftImageView.bottom + 15.0, hintSize.width, hintSize.height);
